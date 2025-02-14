@@ -27,9 +27,9 @@ book.add_option(call_option)
 
 ### 3️⃣ Simuler l'évolution du sous-jacent et des options
 ```python
-stock_simulation_df = book.simulate_stock(spot_price=100, volatility=0.2, 
+stock_simulation_df = book.book.simulate_stock_brownian(spot_price=100, volatility=0.2, 
                                           risk_free_rate=0.05, dividend=0, 
-                                          num_steps=252, total_time=0.25)
+                                          num_steps=252, total_time=0.25, seed= 2025)
 
 call_simulation_df = book.simulate_option(call_option, stock_simulation_df)
 ```
