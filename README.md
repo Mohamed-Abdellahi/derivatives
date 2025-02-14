@@ -47,5 +47,5 @@ Une fois exécuté, le code génère :
 
 ---
 
-✍ **Auteur:** [Ton Nom]  
-🚀 **Dernière mise à jour:** `YYYY-MM-DD`
+✍ **Auteur:** Mohamed-Abdellahi Mohamed-Abdellahi  
+🚀 **Dernière mise à jour:** `2025-02-14`
